@@ -22,11 +22,11 @@ public class LevelController : MonoBehaviour
             {
                 Victory();
             }
-            if (Corn.singleton.health <= 0)
-            {
-                Defeat();
-            }
         }
+        if (Corn.singleton.health <= 0)
+         {
+              Defeat();
+         }
     }
     
     void Victory()
